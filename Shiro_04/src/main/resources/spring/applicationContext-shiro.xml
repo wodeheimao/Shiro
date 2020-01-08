@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="com.zelin.shiro"/>
+
+    <!--开启shiro缓存-->
+    <bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">
+        <property name="securityManager" ref="securityManager"/>
+    </bean>
+
+    <!--配置Shiro过滤工厂bean-->
+    <bean id="shiroFilterFactoryBean" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">
+        <!--安全管理器-->
+        <property name="securityManager" ref="securityManager"/>
+
+        <property name="loginUrl" value="/login.do"/>
+        <property name="successUrl" value="/user/listmenu.do"/>
+        <property name="unauthorizedUrl" value="refuse.jsp"/>
+        <property name="filterChainDefinitions">
+            <value>
+                /plugins/** = anon
+                /validatecode.jsp = anon
+                /logout = logout
+                /** = authc
+            </value>
+        </property>
+        <!--自定义表单过滤器-->
+        <property name="filters">
+            <map>
+                <entry key="authc" value-ref="myForm"/>
+            </map>
+        </property>
+    </bean>
+
+    <!--配置安全管理器-->
+    <bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">
+        <property name="realm" ref="customRealm"/>
+        <property name="cacheManager" ref="cacehManager"/>
+    </bean>
+    <!--自定义realm域-->
+    <bean id="customRealm" class="com.zelin.shiro.realm.CustomRealm">
+        <!--给realm配置处理器-->
+        <property name="credentialsMatcher" ref="credentialsMatcher"/>
+    </bean>
+
+    <!--配置一个MD5加密的匹配器-->
+    <bean id="credentialsMatcher" class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">
+        <property name="hashAlgorithmName" value="md5"/>
+        <property name="hashIterations" value="1"/>
+    </bean>
+
+    <!--引入配置缓存-->
+    <bean id="cacehManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">
+        <property name="cacheManagerConfigFile" value="classpath:shiro-cache.xml"/>
+    </bean>
+
+    <!--自定义一个表单过滤器-->
+    <bean id="myForm" class="com.zelin.shiro.form.MyFormAuthenticationFilter"/>
+</beans>

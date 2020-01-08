@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改用户权限</title>
+    <!--引入bootstrap样式-->
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!--1.引入angularjs的库-->
+    <script src="../plugins/angularjs/angular.min.js"></script>
+    <style>
+        .list-group{
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+    </style>
+    <script>
+        //1.定义angularjs的模块：
+        var app = angular.module("myApp",[]);
+        //2.定义控制器
+        app.controller("roleController",function ($scope,$http) {
+            //3.1)查询所有的角色
+            $scope.findRoles=()=>{
+                $http.get("../role/list").success(response=>{
+                    $scope.roles = response;
+                })
+            }
+
+            //3.2)查询所有的权限
+            $scope.findpermissions=()=>{
+                $http.get("../permission/list").success(response=>{
+                    $scope.permissions = response;
+                })
+            }
+
+            $scope.sysPerissionsIds = [];
+            //3.3)查询所有的权限id
+            $scope.findPermissionIDs=()=>{
+                $http.get("../permission/listByRoleId?roleId="+ $scope.sysRoleId).success(response=>{
+                    $scope.permissionsIds = response;
+                    //给sysRoleIds赋值
+                    for(let i =0; i<$scope.permissions.length; i++){
+                        $scope.sysPerissionsIds[i] = "0";
+                        for (let j = 0; j < $scope.permissionsIds.length; j++){
+                            if($scope.permissionsIds[j] == $scope.permissions[i].id){
+                                $scope.sysPerissionsIds[i] = $scope.permissionsIds[j];
+                            }
+                        }
+                    }
+                })
+            }
+
+
+            //3.4)修改用户的权限
+            $scope.changePermission=()=>{
+                $http.get("../permission/updatePerission?roleId="+$scope.sysRoleId+"&permissionIds="+$scope.sysPerissionsIds).success(response=>{
+                    if(response.success){
+                        parent.location.href="/login.html";
+                    }else{
+                        alert(response.message);
+                    }
+                })
+            }
+        })
+     </script>
+
+</head>
+<body ng-app="myApp" ng-controller="roleController" ng-init="findRoles();findpermissions()">
+        <ul class="list-group">
+            <li class="list-group-item" >
+                请选择用户：
+                <select ng-model="sysRoleId" class="form-control" ng-change="findPermissionIDs()"
+                        ng-options="r.id as r.name for r in roles"></select>
+            </li>
+            <li class="list-group-item" ng-repeat="p in permissions"  >
+                <input  type="checkbox" ng-model="sysPerissionsIds[$index]" ng-true-value="{{p.id}}" ng-false-value="0">
+                {{p.name}}
+                {{p.url}}
+            </li>
+            <li class="list-group-item" >
+                <input type="button" value="更改权限" class="btn btn-primary btn-sm" ng-click="changePermission()">
+            </li>
+        </ul>
+</body>
+</html>

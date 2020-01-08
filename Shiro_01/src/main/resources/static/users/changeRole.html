@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改用户权限</title>
+    <!--引入bootstrap样式-->
+    <link rel="stylesheet" href="../plugins/bootstrap/css/bootstrap.min.css">
+    <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <!--1.引入angularjs的库-->
+    <script src="../plugins/angularjs/angular.min.js"></script>
+    <style>
+        .list-group{
+            width: 300px;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+    </style>
+    <script>
+        //1.定义angularjs的模块：
+        var app = angular.module("myApp",[]);
+        //2.定义控制器
+        app.controller("roleController",function ($scope,$http) {
+            //3.1)查询所有的用户
+            $scope.findUsers=()=>{
+                $http.get("../users/list").success(response=>{
+                    $scope.users = response;
+                })
+            }
+        })
+
+     </script>
+
+</head>
+<body ng-app="myApp" ng-controller="roleController" ng-init="findUsers();">
+{{sysRoleIds}}
+        <ul class="list-group">
+            <li class="list-group-item" >
+                请选择用户：
+                <select ng-model="sysUserId" class="form-control" ng-options="u.id as u.username for u in users"></select>
+            </li>
+            <li class="list-group-item">
+                    <input  type="checkbox"   ><br>
+
+            </li>
+            <li class="list-group-item" >
+                <input type="button" value="更改权限" class="btn btn-primary btn-sm" ng-click="changeRole()">
+            </li>
+        </ul>
+</body>
+</html>

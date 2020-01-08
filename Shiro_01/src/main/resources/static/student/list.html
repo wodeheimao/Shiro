@@ -1,0 +1,85 @@
+
+<html>
+<head>
+    <title>学生列表</title>
+    <link href="../plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <script src="../plugins/jQuery/jquery-2.2.3.min.js"></script>
+    <script src="../plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../plugins/angularjs/angular.min.js"></script>
+    <style>
+        .table{
+            text-align: center;
+        }
+    </style>
+    <script>
+        //1.定义angularjs的模块
+        var app = angular.module("shiro",[]);
+        //2.定义控制器
+        app.controller("shiroController",function ($scope,$http) {
+            //2.1)查询所有学生
+            $scope.findAll=function () {
+                $http.get("../student/list").success(response=>{
+                    $scope.list = response;
+                })
+            }
+            //2.2)定义转换日期的方法
+            $scope.converDate=function (dt) {
+                //① 将日期字符串转换为js的日期对象
+                var date = new Date(dt);
+                //② 得到日期的不同部分
+                var year = date.getFullYear();  //得到日期的年份
+                var day = date.getDate();       //得到天数
+                var month = date.getMonth() + 1; //得到月份数
+                //③ 输出
+                return year + "年" + month + "月" + day + "日";
+            }
+        })
+
+    </script>
+</head>
+<body ng-app="shiro" ng-controller="shiroController" ng-init="findAll()">
+    <div class="container">
+        <div class="panel panel-primary">
+            <div class="panel-heading">
+                <div class="panel-title">
+                    <h3>学生列表</h3>
+                </div>
+            </div>
+                <table class="table table-bordered table-striped">
+                    <tr>
+                        <td>是否删除</td>
+                        <td>学生姓名</td>
+                        <td>学生性别</td>
+                        <td>年龄</td>
+                        <td>住址</td>
+                        <td>出生日期</td>
+                        <td>所在班级</td>
+                        <td>操作</td>
+                    </tr>
+
+                        <tr ng-repeat="stud in list">
+                            <td><input type="checkbox" name="" id=""></td>
+                            <td>{{stud.sname}}</td>
+                            <td>{{stud.sex}}</td>
+                            <td>{{stud.age}}</td>
+                            <td>{{stud.addr}}</td>
+                            <td>
+                                {{converDate(stud.birth)}}
+                             </td>
+                            <td>{{stud.cname}}</td>
+                            <td>
+                                <a type="button" href="student/toupdate/{{stud.sid}}" class="btn btn-success btn-sm">修改</a>
+                                <a type="button" onclick="return confirm('你真的要删除吗?')"
+                                   href="student/delete/{{stud.sid}}"  class="btn btn-danger btn-sm">删除</a>
+                            </td>
+                        </tr>
+                </table>
+            <div class="panel-footer text-right">
+                <a  href="${pageContext.request.contextPath}/student/toadd" class="btn btn-info btn-sm">添加学生</a>
+                泽林教育版权所有2000-2019.
+            </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
