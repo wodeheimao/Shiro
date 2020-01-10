@@ -1,0 +1,1294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="913db6fe-280f-42a1-a8bf-dd19a2457557" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/Solr_02/Solr_02.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Solr_02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/src/com/hu/leetCode3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leetCode/src/com/hu/leetCode4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/Shiro_01/target/" />
+    <ignored path="$PROJECT_DIR$/Shiro_02/target/" />
+    <ignored path="$PROJECT_DIR$/Shiro_03/target/" />
+    <ignored path="$PROJECT_DIR$/Shiro_04/target/" />
+    <ignored path="$PROJECT_DIR$/Shiro_05/target/" />
+    <ignored path="$PROJECT_DIR$/Lucence_01/target/" />
+    <ignored path="$PROJECT_DIR$/Solr_01/target/" />
+    <ignored path="$PROJECT_DIR$/Solr_02/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shiro@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shiro@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="shiro@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="shiro: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Shiro" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="ProductService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/service/ProductService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductServiceImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/service/impl/ProductServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="91" selection-start-line="91" selection-end-line="91" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#363#372#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/controller/ProductController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Solr_02/src/main/resources/templates/product_list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="211">
+              <caret line="123" column="89" selection-start-line="123" selection-start-column="87" selection-end-line="123" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleQuery.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/3.0.6.RELEASE/spring-data-solr-3.0.6.RELEASE.jar!/org/springframework/data/solr/core/query/SimpleQuery.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="213" column="57" selection-start-line="213" selection-start-column="57" selection-end-line="213" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Sort.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.6.RELEASE/spring-data-commons-2.0.6.RELEASE.jar!/org/springframework/data/domain/Sort.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="22" column="17" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="spring-beans.schema" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>分配角色</find>
+      <find>token</find>
+      <find>CredentialsMatcher</find>
+      <find>IndexWriterConfig(</find>
+      <find>D:</find>
+      <find>numfound</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/webapp/validatecode.jsp" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/webapp/WEB-INF/jsp/user/list.jsp" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/webapp/WEB-INF/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/form/CustomFilter.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/realm/CustomRealm.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/exception/MyExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/webapp/WEB-INF/jsp/student/list.jsp" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/webapp/WEB-INF/jsp/user/listmenu.jsp" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/webapp/WEB-INF/jsp/user/refuse.jsp" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/webapp/WEB-INF/jsp/user/changeRole.html" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/controller/RoleController.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/service/impl/RoleServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/service/impl/PermssionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/config/MyConfig.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/webapp/static/users/changeRole.html" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/webapp/static/user/changeRole.html" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/service/UserService.java" />
+        <option value="$PROJECT_DIR$/Shiro_05/src/main/java/com/zelin/shiro/service/impl/UserSerivceImpl.java" />
+        <option value="$PROJECT_DIR$/Lucence_01/pom.xml" />
+        <option value="$PROJECT_DIR$/Lucence_01/src/main/java/com/zelin/manager/LucenceMananger.java" />
+        <option value="$PROJECT_DIR$/Lucence_01/src/main/java/com/zelin/test/LucenceTest.java" />
+        <option value="$PROJECT_DIR$/Lucence_01/src/main/java/com/zelin/test/LucenceTest.java" />
+        <option value="$PROJECT_DIR$/Lucence_01/src/main/java/com/zelin/manager/LucenceMananger.java" />
+        <option value="$PROJECT_DIR$/leetCode/src/com/hu/LeetCode1.java" />
+        <option value="$PROJECT_DIR$/leetCode/src/com/hu/ListNode.java" />
+        <option value="$PROJECT_DIR$/leetCode/src/com/hu/leetCode2.java" />
+        <option value="$PROJECT_DIR$/Solr_01/pom.xml" />
+        <option value="$PROJECT_DIR$/Solr_01/src/main/java/com/zelin/SolrTest.java" />
+        <option value="$PROJECT_DIR$/Solr_01/src/main/java/com/zelin/SolrMananger.java" />
+        <option value="$PROJECT_DIR$/leetCode/src/com/hu/leetCode3.java" />
+        <option value="$PROJECT_DIR$/leetCode/src/com/hu/leetCode4.java" />
+        <option value="$PROJECT_DIR$/leetCode/src/com/hu/leetCode4.java" />
+        <option value="$PROJECT_DIR$/Solr_02/pom.xml" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/pojo/Product.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/pojo/ProductVo.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/SolrApplicatiion.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/pojo/Product.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/controller/IndexController.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/service/ProductService.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/pojo/ProductVo.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/test/java/TestProduct.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/controller/ProductController.java" />
+        <option value="$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/service/impl/ProductServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository\repository_pinyougou" />
+        <option name="mavenHome" value="D:/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Solr_02" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/Shiro_01/src/main/resources/static/plugins/select2/package.json" />
+      <path value="$PROJECT_DIR$/Shiro_02/src/main/resources/static/plugins/select2/package.json" />
+      <path value="$PROJECT_DIR$/Shiro_04/src/main/webapp/plugins/select2/package.json" />
+      <path value="$PROJECT_DIR$/Shiro_05/src/main/webapp/WEB-INF/plugins/select2/package.json" />
+      <path value="$PROJECT_DIR$/Shiro_05/src/main/webapp/static/plugins/select2/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1179" />
+    <option name="height" value="1005" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zelin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zelin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zelin" type="462c0819:PsiDirectoryNode" />
+              <item name="pojo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zelin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zelin" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Shiro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Solr_02" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;jar://D:/repository/repository_pinyougou/org/apache/shiro/shiro-web/1.3.2/shiro-web-1.3.2.jar!/org/apache/shiro/web/filter/authc/FormAuthenticationFilter.class" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.hu" />
+      <recent name="com.zelin.shiro.exception" />
+      <recent name="com.zelin.shiro.form" />
+      <recent name="com.zelin.shiro.service" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.USER-20190709AG\Desktop\project\shiro\Solr_02\src\main\resources\templates" />
+      <recent name="C:\Users\Administrator.USER-20190709AG\Desktop\project\shiro\Lucence_01\src\main\resources" />
+      <recent name="C:\Users\Administrator.USER-20190709AG\Desktop\project\shiro\Shiro_05\src\main\webapp" />
+      <recent name="C:\Users\Administrator.USER-20190709AG\Desktop\project\shiro\Shiro_05\src\main\java\com\zelin\shiro\mapper" />
+      <recent name="C:\Users\Administrator.USER-20190709AG\Desktop\project\shiro\Shiro_05\src\main\java\com\zelin\shiro\service" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zelin.shiro.pojo" />
+      <recent name="com.zelin.shiro.controller" />
+      <recent name="com.zelin.shiro.service.impl" />
+      <recent name="com.zelin.shiro.utils" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator.USER-20190709AG\Desktop\project\shiro\Shiro_03\src\main\resources" />
+      <recent name="C:\Users\Administrator.USER-20190709AG\Desktop\project\shiro\Shiro_02\src\main\resources\static\users" />
+      <recent name="C:\Users\Administrator.USER-20190709AG\Desktop\project\shiro\Shiro_02\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RestServicesNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.SolrApplicatiion">
+    <configuration name="SolrApplicatiion" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zelin.SolrApplicatiion" />
+      <module name="Solr_02" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zelin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="leetCode3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hu.leetCode3" />
+      <module name="leetCode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="SolrTest.test03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Solr_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zelin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zelin" />
+      <option name="MAIN_CLASS_NAME" value="com.zelin.SolrTest" />
+      <option name="METHOD_NAME" value="test03" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="SolrTest.test04" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Solr_01" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zelin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.zelin" />
+      <option name="MAIN_CLASS_NAME" value="com.zelin.SolrTest" />
+      <option name="METHOD_NAME" value="test04" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestProduct.test01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Solr_02" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestProduct" />
+      <option name="METHOD_NAME" value="test01" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="ShiroAppcation" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Shiro_05" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zelin.shiro.ShiroAppcation" />
+    </configuration>
+    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="Shiro_01" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zelin.shiro.ShiroApplication" />
+    </configuration>
+    <configuration name="ShiroApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="Shiro_02" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zelin.shiro.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zelin.shiro.ShiroApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <properties />
+      <listeners />
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ShiroApplication" />
+      <item itemvalue="Spring Boot.ShiroAppcation" />
+      <item itemvalue="JUnit.SolrTest.test03" />
+      <item itemvalue="JUnit.SolrTest.test04" />
+      <item itemvalue="Application.leetCode3" />
+      <item itemvalue="Application.SolrApplicatiion" />
+      <item itemvalue="JUnit.TestProduct.test01" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.SolrApplicatiion" />
+        <item itemvalue="JUnit.TestProduct.test01" />
+        <item itemvalue="JUnit.SolrTest.test04" />
+        <item itemvalue="Application.leetCode3" />
+        <item itemvalue="JUnit.SolrTest.test03" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\Administrator.USER-20190709AG\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="913db6fe-280f-42a1-a8bf-dd19a2457557" name="Default" comment="" />
+      <created>1577783208454</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1577783208454</updated>
+      <workItem from="1577783210115" duration="3130000" />
+      <workItem from="1577937489508" duration="1233000" />
+      <workItem from="1577954474078" duration="13806000" />
+      <workItem from="1578015432479" duration="1840000" />
+      <workItem from="1578023068912" duration="2378000" />
+      <workItem from="1578025545933" duration="10539000" />
+      <workItem from="1578110466389" duration="1569000" />
+      <workItem from="1578117806748" duration="1468000" />
+      <workItem from="1578270940737" duration="30682000" />
+      <workItem from="1578387632083" duration="10318000" />
+      <workItem from="1578446448656" duration="16366000" />
+      <workItem from="1578528009480" duration="3583000" />
+      <workItem from="1578558979079" duration="10325000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="SolrTest_test02 - 2020.01.08 at 17h 33m 14s.xml">
+      <configuration name="SolrTest.test02" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrTest_test03 - 2020.01.08 at 17h 50m 44s.xml">
+      <configuration name="SolrTest.test03" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrTest_test04 - 2020.01.08 at 17h 59m 45s.xml">
+      <configuration name="SolrTest.test04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrTest_test04 - 2020.01.08 at 19h 03m 48s.xml">
+      <configuration name="SolrTest.test04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrTest_test04 - 2020.01.08 at 19h 03m 59s.xml">
+      <configuration name="SolrTest.test04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrTest_test04 - 2020.01.08 at 19h 04m 30s.xml">
+      <configuration name="SolrTest.test04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="SolrTest_test04 - 2020.01.08 at 19h 05m 17s.xml">
+      <configuration name="SolrTest.test04" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProduct_test01 - 2020.01.09 at 17h 50m 50s.xml">
+      <configuration name="TestProduct.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProduct_test01 - 2020.01.09 at 17h 51m 05s.xml">
+      <configuration name="TestProduct.test01" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestProduct_test01 - 2020.01.09 at 17h 52m 00s.xml">
+      <configuration name="TestProduct.test01" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="107237000" />
+  </component>
+  <component name="TodoView" selected-index="2">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="RestServices" order="4" weight="0.32995737" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32972974" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.23294243" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="MyBatis Log" order="9" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Designer" order="4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" sideWeight="0.49945945" weight="0.22068231" />
+      <window_info anchor="right" id="Database" order="6" weight="0.32995737" />
+      <window_info id="Structure" order="2" sideWeight="0.5027027" side_tool="true" weight="0.26865673" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="5" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.43783784" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32972974" />
+      <window_info anchor="right" id="aiXcoder" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info id="Image Layers" order="6" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32972974" />
+      <window_info anchor="right" id="Capture Analysis" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="12" show_stripe_button="false" weight="0.32900432" />
+      <window_info anchor="bottom" id="Run" order="15" weight="0.39027026" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32972974" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49946696" weight="0.32972974" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32972974" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4964539" visible="true" weight="0.15991472" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32995737" />
+      <window_info id="Web" order="7" sideWeight="0.5016129" side_tool="true" weight="0.26385927" />
+      <window_info anchor="right" id="Theme Preview" order="11" />
+      <window_info id="Favorites" order="8" sideWeight="0.5027027" side_tool="true" weight="0.26865673" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info x="0" y="0" width="434" height="856" id="Documentation" order="1" sideWeight="0.5035461" side_tool="true" weight="0.15991472" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32972974" />
+      <window_info anchor="right" id="CDI" order="12" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="1" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Console" order="0" weight="0.32972974" />
+      <window_info anchor="bottom" id="Run" order="15" weight="0.55783784" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.5016129" side_tool="true" weight="0.26385927" />
+      <window_info anchor="bottom" id="Terminal" order="14" sideWeight="0.49946696" weight="0.32972974" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50053304" side_tool="true" weight="0.32972974" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32972974" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.49946696" weight="0.32972974" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.22068231" />
+      <window_info anchor="bottom" id="Problems" order="16" weight="0.32972974" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32972974" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32900432" />
+      <window_info anchor="right" id="Maven Projects" order="6" weight="0.23294243" />
+      <window_info id="Structure" order="1" sideWeight="0.5016129" side_tool="true" weight="0.26385927" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4983871" visible="true" weight="0.26652452" />
+      <window_info anchor="right" id="aiXcoder" order="7" />
+      <window_info anchor="right" id="Database" order="8" weight="0.32995737" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info id="Web" order="7" sideWeight="0.5016129" side_tool="true" weight="0.26385927" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="RestServices" order="11" weight="0.32995737" />
+      <window_info id="Image Layers" order="3" />
+      <window_info anchor="right" id="CDI" order="5" />
+      <window_info anchor="bottom" id="MyBatis Log" order="9" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="right" id="Bean Validation" order="12" weight="0.32995737" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.43783784" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/util/fst/ReverseBytesReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/util/fst/BytesStore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="337" selection-start-line="337" selection-end-line="337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/util/fst/FST.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="1337" selection-start-line="1337" selection-end-line="1337" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/codecs/blocktree/FieldReader.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/index/TermContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/codecs/blocktree/SegmentTermsEnum.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="240" selection-start-line="240" selection-end-line="240" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/util/BytesRefBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/util/ArrayUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="98" selection-start-line="98" selection-end-line="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/search/Query.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="143">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/search/TermQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="33" column="40" selection-start-line="33" selection-start-column="33" selection-end-line="33" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/lucene/lucene-core/4.10.3/lucene-core-4.10.3.jar!/org/apache/lucene/search/BooleanQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="25" column="25" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lucence_01/src/main/resources/IKAnalyzer.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="33" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lucence_01/src/main/resources/ext.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lucence_01/src/main/resources/stopword.dic">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lucence_01/src/main/java/com/zelin/test/LucenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1984">
+          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/src/com/hu/LeetCode1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="25" column="22" selection-start-line="25" selection-start-column="22" selection-end-line="25" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Lucence_01/src/main/java/com/zelin/manager/LucenceMananger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3032">
+          <caret line="216" column="21" selection-start-line="216" selection-start-column="21" selection-end-line="216" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/com/github/keran213539/IK_Analyzer/2012FF_hf1_1/IK_Analyzer-2012FF_hf1_1.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3807" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/src/com/hu/ListNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/src/com/hu/leetCode2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3-sources.jar!/org/apache/solr/client/solrj/impl/HttpSolrServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1647">
+          <caret line="136" column="47" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3-sources.jar!/org/apache/solr/client/solrj/request/UpdateRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3159">
+          <caret line="161" column="21" selection-start-line="161" selection-start-column="20" selection-end-line="161" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3-sources.jar!/org/apache/solr/client/solrj/SolrServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6561">
+          <caret line="275" column="64" selection-start-line="275" selection-start-column="19" selection-end-line="275" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3-sources.jar!/org/apache/solr/common/params/SolrParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="34" column="22" selection-start-line="34" selection-start-column="22" selection-end-line="34" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3-sources.jar!/org/apache/solr/client/solrj/SolrQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_01/src/main/java/com/zelin/SolrMananger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2673">
+          <caret line="113" selection-start-line="113" selection-end-line="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/solr/solr-solrj/4.10.3/solr-solrj-4.10.3-sources.jar!/org/apache/solr/client/solrj/response/QueryResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6885">
+          <caret line="284" column="76" selection-start-line="284" selection-start-column="68" selection-end-line="284" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/src/com/hu/leetCode3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_01/src/main/java/com/zelin/SolrTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="35" column="33" selection-start-line="35" selection-start-column="33" selection-end-line="35" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/leetCode/src/com/hu/leetCode4.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.0.1.RELEASE/spring-boot-autoconfigure-2.0.1.RELEASE-sources.jar!/org/springframework/boot/autoconfigure/solr/SolrProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="32" column="53" selection-start-line="32" selection-start-column="27" selection-end-line="32" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="7" column="16" lean-forward="true" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/target/classes/com/zelin/pojo/Product.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.14.0/lombok-1.14.0.jar!/lombok/AllArgsConstructor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/pojo/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="28" column="30" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/SolrApplicatiion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#530#531#0" expanded="true" />
+            <element signature="e#581#582#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/controller/IndexController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="335">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#448#457#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="359">
+          <caret line="43" column="17" lean-forward="true" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/3.0.6.RELEASE/spring-data-solr-3.0.6.RELEASE.jar!/org/springframework/data/solr/core/query/HighlightQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/3.0.6.RELEASE/spring-data-solr-3.0.6.RELEASE.jar!/org/springframework/data/solr/core/query/SimpleHighlightQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/3.0.6.RELEASE/spring-data-solr-3.0.6.RELEASE.jar!/org/springframework/data/solr/core/query/HighlightOptions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/commons/commons-lang3/3.7/commons-lang3-3.7.jar!/org/apache/commons/lang3/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="27" column="26" lean-forward="true" selection-start-line="27" selection-start-column="26" selection-end-line="27" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/3.0.6.RELEASE/spring-data-solr-3.0.6.RELEASE.jar!/org/springframework/data/solr/core/query/FilterQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/test/java/TestProduct.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-solr/3.0.6.RELEASE/spring-data-solr-3.0.6.RELEASE.jar!/org/springframework/data/solr/core/query/SimpleQuery.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="213" column="57" selection-start-line="213" selection-start-column="57" selection-end-line="213" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.6.RELEASE/spring-data-commons-2.0.6.RELEASE.jar!/org/springframework/data/domain/Sort.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="22" column="17" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/resources/templates/product_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="123" column="89" selection-start-line="123" selection-start-column="87" selection-end-line="123" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/pojo/ProductVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="11" column="31" lean-forward="true" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Solr_02/src/main/java/com/zelin/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="91" selection-start-line="91" selection-end-line="91" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#363#372#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Shiro_04:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Solr_02</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: aopalliance:aopalliance:1.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

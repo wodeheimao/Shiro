@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>商品信息</title>
+    <style>
+        table{
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="/webjars/bootstrap/3.3.7/css/bootstrap.min.css" th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}">
+    <script src="/webjars/jquery/3.4.1/jquery.min.js" th:src="@{/webjars/jquery/3.4.1/jquery.min.js}"></script>
+    <script src="webjars/bootstrap/3.3.7/js/bootstrap.min.js" th:src="@{webjars/bootstrap/3.3.7/js/bootstrap.min.js}"></script>
+</head>
+<body>
+<div class="container">
+    <div class="panel panel-success">
+        <div class="panel-heading">
+            <div class="panel-title">
+                <h4>商品信息</h4>
+            </div>
+        </div>
+        <table class="table table-hover table-striped table-bordered">
+            <tr>
+                <td>商品编号</td>
+                <td>商品名称</td>
+                <td>商品分类</td>
+                <td>商品价格</td>
+                <td>总数量</td>
+                <td>图片</td>
+                <td>操作</td>
+            </tr>
+            <tr th:each="p : ${productList}">
+                <td th:text="${p.pid}"></td>
+                <td th:utext="${p.name}"></td>
+                <td th:text="${p.catelog_name}"></td>
+                <td th:utext="${p.price}"></td>
+                <td th:text="${p.number}"></td>
+                <td th:text="${p.picture}"></td>
+                <td>
+                    <a href="#" class="btn btn-primary btn-sm">修改</a>
+                    <a href="#" class="btn btn-danger btn-sm">删除</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</div>
+</body>
+</html>

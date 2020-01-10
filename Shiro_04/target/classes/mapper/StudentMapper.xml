@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.zelin.shiro.mapper.StudentMapper" >
+    <select id="findAllStudents" resultType="com.zelin.shiro.pojo.StudentCustom">
+        SELECT st.*,cname FROM student st,classes c WHERE c.cid=st.cid
+    </select>
+</mapper>
